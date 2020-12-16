@@ -1,0 +1,73 @@
+
+application {
+  config {
+    baseName ecommerce,
+    applicationType gateway,
+    packageName ma.ids.gateway,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+    clientFramework react
+  }
+  entities *
+}
+
+application {
+  config {
+    baseName commande,
+    applicationType microservice,
+    packageName ma.ids.commande,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+  }
+  entities Commande, LigneCommande, Produit
+}
+
+application {
+  config {
+    baseName client,
+    applicationType microservice,
+    packageName ma.ids.client,
+    authenticationType jwt,
+    prodDatabaseType postgresql,
+  }
+  entities Client
+}
+
+application {
+  config {
+    baseName catalog,
+    applicationType microservice,
+    packageName ma.ids.catalog,
+    authenticationType jwt,
+    prodDatabaseType postgresql,
+  }
+  entities Produit
+}
+
+
+entity Client {
+	nom String
+    tel String
+    email String
+}
+
+entity Commande {
+	date Instant
+    
+}
+
+entity LigneCommande {
+	quantite Double
+}
+
+entity Produit {
+	designation String
+    pu Double
+}
+
+relationship ManyToOne {
+  Commande{client} to Client
+  LigneCommande{commande} to Commande
+  LigneCommande{produit} to Produit
+}
+    
