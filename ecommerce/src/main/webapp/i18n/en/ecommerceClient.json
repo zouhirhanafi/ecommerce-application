@@ -1,0 +1,28 @@
+{
+  "ecommerceApp": {
+    "ecommerceClient": {
+      "home": {
+        "title": "Clients",
+        "createLabel": "Create a new Client",
+        "createOrEditLabel": "Create or edit a Client",
+        "notFound": "No Clients found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Client {{ id }}?"
+      },
+      "detail": {
+        "title": "Client"
+      },
+      "nom": "Nom",
+      "tel": "Tel",
+      "email": "Email"
+    }
+  },
+  "ecommerceApp": {
+    "ecommerceClient": {
+      "created": "A new Client is created with identifier {{ param }}",
+      "updated": "A Client is updated with identifier {{ param }}",
+      "deleted": "A Client is deleted with identifier {{ param }}"
+    }
+  }
+}

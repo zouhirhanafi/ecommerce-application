@@ -1,0 +1,27 @@
+{
+  "ecommerceApp": {
+    "ecommerceCommande": {
+      "home": {
+        "title": "Commandes",
+        "createLabel": "Créer un nouveau Commande",
+        "createOrEditLabel": "Créer ou éditer un Commande",
+        "notFound": "Aucun Commande trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Commande {{ id }} ?"
+      },
+      "detail": {
+        "title": "Commande"
+      },
+      "date": "Date",
+      "client": "Client"
+    }
+  },
+  "ecommerceApp": {
+    "ecommerceCommande": {
+      "created": "Un nouveau Commande a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Commande avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Commande avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

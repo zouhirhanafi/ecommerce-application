@@ -1,0 +1,27 @@
+{
+  "ecommerceApp": {
+    "ecommerceProduit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Create a new Produit",
+        "createOrEditLabel": "Create or edit a Produit",
+        "notFound": "No Produits found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "designation": "Designation",
+      "pu": "Pu"
+    }
+  },
+  "ecommerceApp": {
+    "ecommerceProduit": {
+      "created": "A new Produit is created with identifier {{ param }}",
+      "updated": "A Produit is updated with identifier {{ param }}",
+      "deleted": "A Produit is deleted with identifier {{ param }}"
+    }
+  }
+}

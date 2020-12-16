@@ -1,0 +1,27 @@
+{
+  "ecommerceApp": {
+    "ecommerceProduit": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Créer un nouveau Produit",
+        "createOrEditLabel": "Créer ou éditer un Produit",
+        "notFound": "Aucun Produit trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Produit {{ id }} ?"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "designation": "Designation",
+      "pu": "Pu"
+    }
+  },
+  "ecommerceApp": {
+    "ecommerceProduit": {
+      "created": "Un nouveau Produit a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Produit avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Produit avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

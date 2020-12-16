@@ -1,0 +1,12 @@
+version: '2'
+services:
+  catalog-postgresql:
+    image: postgres:12.3
+    # volumes:
+    #     - ~/volumes/jhipster/catalog/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=catalog
+      - POSTGRES_PASSWORD=
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 5432:5432

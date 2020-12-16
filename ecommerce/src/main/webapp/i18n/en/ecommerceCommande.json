@@ -1,0 +1,27 @@
+{
+  "ecommerceApp": {
+    "ecommerceCommande": {
+      "home": {
+        "title": "Commandes",
+        "createLabel": "Create a new Commande",
+        "createOrEditLabel": "Create or edit a Commande",
+        "notFound": "No Commandes found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Commande {{ id }}?"
+      },
+      "detail": {
+        "title": "Commande"
+      },
+      "date": "Date",
+      "client": "Client"
+    }
+  },
+  "ecommerceApp": {
+    "ecommerceCommande": {
+      "created": "A new Commande is created with identifier {{ param }}",
+      "updated": "A Commande is updated with identifier {{ param }}",
+      "deleted": "A Commande is deleted with identifier {{ param }}"
+    }
+  }
+}
