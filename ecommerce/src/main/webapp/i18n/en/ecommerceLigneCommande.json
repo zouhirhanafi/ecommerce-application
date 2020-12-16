@@ -1,0 +1,28 @@
+{
+  "ecommerceApp": {
+    "ecommerceLigneCommande": {
+      "home": {
+        "title": "Ligne Commandes",
+        "createLabel": "Create a new Ligne Commande",
+        "createOrEditLabel": "Create or edit a Ligne Commande",
+        "notFound": "No Ligne Commandes found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Ligne Commande {{ id }}?"
+      },
+      "detail": {
+        "title": "Ligne Commande"
+      },
+      "quantite": "Quantite",
+      "commande": "Commande",
+      "produit": "Produit"
+    }
+  },
+  "ecommerceApp": {
+    "ecommerceLigneCommande": {
+      "created": "A new Ligne Commande is created with identifier {{ param }}",
+      "updated": "A Ligne Commande is updated with identifier {{ param }}",
+      "deleted": "A Ligne Commande is deleted with identifier {{ param }}"
+    }
+  }
+}
